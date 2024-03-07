@@ -3,7 +3,7 @@
     "containerDefinitions": [
         {
             "name": "embracing-devops-release-management",
-            "image": "XXXXXXXXXXXX.dkr.ecr.us-east-1.amazonaws.com/web-app:d8422bb9bdb65d09c781ab00c2c93e934d912e1e",
+            "image": "656808767136.dkr.ecr.us-east-1.amazonaws.com/web-app:d8422bb9bdb65d09c781ab00c2c93e934d912e1e",
             "cpu": 0,
             "portMappings": [
                 {
@@ -20,7 +20,7 @@
             "volumesFrom": []
         }
     ],
-    "executionRoleArn": "arn:aws:iam::XXXXXXXXXXXX:role/ecsTaskExecutionRole",
+    "executionRoleArn": "arn:aws:iam::656808767136:role/ecsTaskExecutionRole",
     "networkMode": "awsvpc",
     "requiresCompatibilities": [
         "FARGATE"
